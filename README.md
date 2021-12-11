@@ -1,6 +1,6 @@
 # Vanilla flavour link tree style site
 
-See [demo]("https://link-me-link-me.glitch.me/") 🦄
+See [demo here](https://link-me-link-me.glitch.me/) 🦄
 
 ## What's in this project?
 
