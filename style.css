@@ -19,11 +19,6 @@
   display: none !important;
 }
 
-@keyframes mymove {
-  from {background-color: pink;}
-  to {background-color: orange;}
-}
-
 /* Import fonts */
 @font-face {
   font-family: HK Grotesk;
@@ -99,7 +94,7 @@ a:not(.btn--remix):visited {
 body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
-  animation: mymove 5s infinite;
+  animation: backgroundColorPalette 5s infinite;
 }
 
 /* Page structure */
@@ -166,6 +161,10 @@ input {
   transition: 500ms;
 }
 
+button:hover {
+  border: 1px solid #000000;
+}
+
 /* Subheading */
 h2 {
   color: #2800FF;
@@ -194,5 +193,24 @@ h2 {
   }
   to {
     transform: rotate(359deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes backgroundColorPalette {
+  0% {
+    background: #ffcfb6;
+  }
+  25% {
+    background: #ffb9b6;
+  }
+  50% {
+    background: #ffa8dd;
+  }
+  75% {
+    background: #ffbbe1;
+  }
+  100% {
+    background: #ffcfb6;
   }
 }
