@@ -1,7 +1,5 @@
 /* Default values set as CSS variables */
 :root {
-  --color-bg: mymove;
-  --animation: mymove 5s infinite;
   --color-text-main: #000000;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
