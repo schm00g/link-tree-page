@@ -17,6 +17,7 @@
   display: none !important;
 }
 
+
 /* Import fonts */
 @font-face {
   font-family: HK Grotesk;
@@ -160,7 +161,7 @@ input {
 }
 
 button:hover {
-  border: 1px solid #000000;
+  border: 1px dashed #000000;
 }
 
 /* Subheading */
